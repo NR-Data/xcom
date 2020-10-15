@@ -1,0 +1,3309 @@
+{
+  "catalogue": {
+    "name": "Xcom MP Codex",
+    "id": "a81a989c-4ad9-2135-f03a-6a8d17e7e82c",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "ddaae34c-27e1-5dc9-9217-9c35b9167dfb",
+    "gameSystemRevision": 4,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Chryssalid",
+        "id": "3b494c42-a126-feac-d085-791bcf6e375e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+        "rules": [
+          {"name": "Poisonous Claws", "id": "Poisonous Claws###DATA###", "description": "Poison enemies wounded with melee attacks.", "hidden": false},
+          {
+            "name": "Implant",
+            "id": "Implant###DATA###",
+            "description": "Victims are implanted with a Chryssalid egg if they are killed by a Chryssalid's attack (not from poison caused by Poisonous Claws).",
+            "hidden": false
+          },
+          {"name": "Leap", "id": "Leap###DATA###", "description": "Allows vertical leaps onto elevated surfaces during movement.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Cyberdisc",
+        "id": "4cefc30d-2710-3c94-6c9c-79a00aeb52ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 4500}],
+        "rules": [
+          {
+            "name": "Death Blossom",
+            "id": "Death Blossom###DATA###",
+            "description": "Project an intense energy field from Closed position, damaging all nearby enemies. 3 turn cooldown.",
+            "hidden": false
+          },
+          {"name": "Bombard", "id": "Bombard###DATA###", "description": "Throw or launch grenades over exceptionally long distances.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Drone",
+        "id": "f909f845-6a6c-85d1-2c65-93fe1811d365",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 1100}],
+        "rules": [
+          {"name": "Repair", "id": "Repair###DATA###", "description": "Repairs robotic units.", "hidden": false},
+          {
+            "name": "Overload",
+            "id": "Overload###DATA###",
+            "description": "Overload the unit's own power source, destroying the unit but causing explosive damage similar to a grenade's.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Ethereal",
+        "id": "917df3fe-ddf1-e1ad-9a2c-bdfc57222535",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 9000}],
+        "rules": [
+          {
+            "name": "Mind Control",
+            "id": "Mind Control###DATA###",
+            "description": "Very difficult psi technique that, if successful, grants control of the target for 3 turns. Does not work on robotic enemies.",
+            "hidden": false
+          },
+          {
+            "name": "Mindfray",
+            "id": "Mindfray###DATA###",
+            "description": "Use psi abilities in combat to unlock further psi training. Causes the target to lose grip on reality, inflicting penalties to Aim, Will and mobility, and doing 5 base damage. Robotic units are immune. Lasts 2 turns. 1 turn cooldown.",
+            "hidden": false
+          },
+          {"name": "Psi Lance", "id": "Psi Lance###DATA###", "description": "Project a bolt of pure psi force at an enemy.", "hidden": false},
+          {
+            "name": "Rift",
+            "id": "Rift###DATA###",
+            "description": "Devastate an area with a storm of psi energy. The rift does more damage against targets with low Will, and reduced damage against targets with high Will. 4 turn cooldown.",
+            "hidden": false
+          },
+          {"name": "Psi Drain", "id": "Psi Drain###DATA###", "description": "Drain health from an ally.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Floater",
+        "id": "e9da116a-5bad-539c-6678-b25a0abfef94",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 1300}],
+        "rules": [
+          {
+            "name": "Launch",
+            "id": "Launch###DATA###",
+            "description": "Move anywhere on the battlefield in a single turn. Launch cannot be used indoors.",
+            "hidden": false
+          },
+          {"name": "Evasion", "id": "Evasion###DATA###", "description": "Enemies targeting this unit when it is airbourne suffer a -20 Aim penalty.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Heavy Floater",
+        "id": "20488487-8f9b-eb75-a66c-3a7a406a7b94",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+        "rules": [
+          {
+            "name": "Launch",
+            "id": "0ac5-e915-12d9-a186",
+            "description": "Move anywhere on the battlefield in a single turn. Launch cannot be used indoors.",
+            "hidden": false
+          },
+          {"name": "Evasion", "id": "ef4f-a5f5-e342-8008", "description": "Enemies targeting this unit when it is airbourne suffer a -20 Aim penalty.", "hidden": false},
+          {"name": "Bombard", "id": "095b-dfee-6a7a-ee56", "description": "Throw or launch grenades over exceptionally long distances.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Muton",
+        "id": "f7ae04e4-7e61-5710-6f1c-1b5e30d54fcb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 2850}],
+        "rules": [
+          {"name": "Intimidate", "id": "Intimidate###DATA###", "description": "Reacts unpredictably when wounded, provoking panic in enemies.", "hidden": false},
+          {
+            "name": "Suppression",
+            "id": "Suppression###DATA###",
+            "description": "Can fire a special shot that grants reaction fire at a single target. The target also suffers a -30 aim penalty.",
+            "hidden": false
+          },
+          {
+            "name": "Blood Call",
+            "id": "Blood Call###DATA###",
+            "description": "Unleash a bestial roar that inspires neaby allies of the same species to greater speed, focus, and resolve for 2 turns. 4 turn cooldown.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Muton Berserker",
+        "id": "9c52c59e-04df-ac8f-34ee-2afa3c2eeea1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 4000}],
+        "rules": [
+          {
+            "name": "Bull Rush",
+            "id": "Bull Rush###DATA###",
+            "description": "Charge in a straight line through cover to unleash a devastating melee attack.",
+            "hidden": false
+          },
+          {"name": "Bloodlust", "id": "Bloodlust###DATA###", "description": "Allows the Berserker to charge an enemy that wounds it.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Muton Elite",
+        "id": "245525d4-66dd-9344-a053-ee2a7ee1a828",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 3800}],
+        "rules": [
+          {
+            "name": "Suppression",
+            "id": "6a00-4ad7-2b14-c28b",
+            "description": "Can fire a special shot that grants reaction fire at a single target. The target also suffers a -30 aim penalty.",
+            "hidden": false
+          },
+          {"name": "Bombard", "id": "e635-6d9c-9d4b-f192", "description": "Throw or launch grenades over exceptionally long distances.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Sectoid",
+        "id": "40d8b326-cc59-bbbd-7363-7f5124d0e1ef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 400}],
+        "rules": [
+          {
+            "name": "Mind Merge",
+            "id": "Mind Merge###DATA###",
+            "description": "Merge minds with the target, granting the target +25% critical chance and +1 health. If the user is killed, the target will die as well.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sectoid Commander",
+        "id": "d15e0c90-2954-fdce-46a8-070d66d3c56a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 3200}],
+        "rules": [
+          {
+            "name": "Mindfray",
+            "id": "1089-d598-d94a-297c",
+            "description": "Use psi abilities in combat to unlock further psi training. Causes the target to lose grip on reality, inflicting penalties to Aim, Will and mobility, and doing 5 base damage. Robotic units are immune. Lasts 2 turns. 1 turn cooldown.",
+            "hidden": false
+          },
+          {
+            "name": "Greater Mind Merge",
+            "id": "Greater Mind Merge###DATA###",
+            "description": "Merge minds with all lesser allies of the same species nearby, granting them +25% critical chance and +1 health.",
+            "hidden": false
+          },
+          {
+            "name": "Psi Panic",
+            "id": "Psi Panic###DATA###",
+            "description": "Cause target to panic on its following turn, if the target's Will is overcome. Robotic enemies are immune. 2 turn cooldown.",
+            "hidden": false
+          },
+          {
+            "name": "Mind Control",
+            "id": "9141-a9af-a75b-67eb",
+            "description": "Very difficult psi technique that, if successful, grants control of the target for 3 turns. Does not work on robotic enemies.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Assault)",
+        "id": "c916c260-aca0-805f-4fe1-17af066dfb8b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 800}],
+        "selectionEntryGroups": [
+          {
+            "name": "1. Type",
+            "id": "dbcff161-1122-6cfc-94df-2184e0e3982b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Warrior",
+                "id": "c9b01add-7fa1-7d21-f007-000c98f732a1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 4750}],
+                "rules": [
+                  {
+                    "name": "Run & Gun",
+                    "id": "Run & Gun###DATA###",
+                    "description": "Allows firing or Overwatch after Dashing on the turn Run & Gun is activated. 3 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Lightning Reflexes",
+                    "id": "Lightning Reflexes###DATA###",
+                    "description": "Forces the first reaction shot against this unit each turn to miss.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rapid Fire",
+                    "id": "Rapid Fire###DATA###",
+                    "description": "Take two shots against a single target in quick succession. Each shot carries a -15 penalty to Aim.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Extra Conditioning",
+                    "id": "Extra Conditioning###DATA###",
+                    "description": "Confers bonus health based on which type of armor is equipped. Heavier armor increases the bonus.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Mindfray",
+                    "id": "8510-4651-dd1f-f9c8",
+                    "description": "Use psi abilities in combat to unlock further psi training. Causes the target to lose grip on reality, inflicting penalties to Aim, Will and mobility, and doing 5 base damage. Robotic units are immune. Lasts 2 turns. 1 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Psi Panic",
+                    "id": "7741-32e7-8c23-5761",
+                    "description": "Cause target to panic on its following turn, if the target's Will is overcome. Robotic enemies are immune. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Mind Control",
+                    "id": "a366-ab32-72cc-225a",
+                    "description": "Very difficult psi technique that, if successful, grants control of the target for 3 turns. Does not work on robotic enemies.",
+                    "hidden": false
+                  },
+                  {"name": "Tactical Sense", "id": "Tactical Sense###DATA###", "description": "Confers +5 Defense per enemy in sight (max +20).", "hidden": false},
+                  {
+                    "name": "Close Combat Specialist",
+                    "id": "Close Combat Specialist###DATA###",
+                    "description": "Confers a reaction shot against any enemy who closes to within 4 tiles. Does not require Overwatch.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Recon",
+                "id": "4e6028f2-7445-0525-3d17-132a6f711f03",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Run & Gun",
+                    "id": "9274-72b0-fdf3-884c",
+                    "description": "Allows firing or Overwatch after Dashing on the turn Run & Gun is activated. 3 turn cooldown.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Gunner",
+                "id": "b367fe32-28d2-93f6-6390-f2ebf4bee615",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2250}],
+                "rules": [
+                  {"name": "Aggression", "id": "Aggression###DATA###", "description": "Confers +10% critical chance per enemy in sight (max +30%).", "hidden": false},
+                  {
+                    "name": "Run & Gun",
+                    "id": "4e10-5ebc-1ec3-b57b",
+                    "description": "Allows firing or Overwatch after Dashing on the turn Run & Gun is activated. 3 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Lightning Reflexes",
+                    "id": "297e-cb13-c48d-262f",
+                    "description": "Forces the first reaction shot against this unit each turn to miss.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rapid Fire",
+                    "id": "2015-51ad-4d4c-37f3",
+                    "description": "Take two shots against a single target in quick succession. Each shot carries a -15 penalty to Aim.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Bring 'Em On",
+                    "id": "Bring 'Em On###DATA###",
+                    "description": "Adds 1 damage on critical hits for each enemy the squad can see (up to 5).",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Commando",
+                "id": "d9714f1d-81ba-20dd-010a-309d6c65594b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [
+                  {"name": "Aggression", "id": "758d-3626-0178-365d", "description": "Confers +10% critical chance per enemy in sight (max +30%).", "hidden": false},
+                  {
+                    "name": "Run & Gun",
+                    "id": "e9ec-cb6d-375e-438d",
+                    "description": "Allows firing or Overwatch after Dashing on the turn Run & Gun is activated. 3 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Lightning Reflexes",
+                    "id": "5486-57b0-9dd7-7314",
+                    "description": "Forces the first reaction shot against this unit each turn to miss.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rapid Fire",
+                    "id": "3e6c-3638-9694-cbb8",
+                    "description": "Take two shots against a single target in quick succession. Each shot carries a -15 penalty to Aim.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Bring 'Em On",
+                    "id": "1e0d-f9d0-a4a8-1b32",
+                    "description": "Adds 1 damage on critical hits for each enemy the squad can see (up to 5).",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Extra Conditioning",
+                    "id": "aec0-6acc-0983-e164",
+                    "description": "Confers bonus health based on which type of armor is equipped. Heavier armor increases the bonus.",
+                    "hidden": false
+                  },
+                  {"name": "Resilience", "id": "Resilience###DATA###", "description": "Confers immunity to critical hits.", "hidden": false}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "4. Armor",
+            "id": "73bc4a19-1054-dd7c-9b9c-a0d1528d0f83",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Armor",
+                "id": "4b24c786-8d23-1ac3-1e01-9a416e2ab9be",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [{"name": "Will bonus", "id": "Will bonus###DATA###", "description": "Increases wearer's Will by 30 for psi attacks and defense.", "hidden": false}]
+              },
+              {
+                "name": "Archangel",
+                "id": "0cef7e5a-f91c-b68d-4622-3376354b9189",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2400}],
+                "rules": [
+                  {
+                    "name": "Flight (6 Charges)",
+                    "id": "Flight (6 Charges)###DATA###",
+                    "description": "This armor is fitted with a jet pack that permits the wearer to fly for a limited period of time.",
+                    "hidden": false
+                  },
+                  {"name": "Backpack limited", "id": "Backpack limited###DATA###", "hidden": false}
+                ]
+              },
+              {
+                "name": "Ghost Armor",
+                "id": "10bde548-f42f-a5e1-c028-78e818ac747c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2700}],
+                "rules": [
+                  {
+                    "name": "Ghost Mode (4 charges)",
+                    "id": "Ghost Mode (4 charges)###DATA###",
+                    "description": "A Ghost Armor wearer can activate a special mode that makes him or her invisible to enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Grapple",
+                    "id": "Grapple###DATA###",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Titan Armor",
+                "id": "415bfcdb-0547-0444-4bc3-69355fb315fc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1700}],
+                "rules": [
+                  {"name": "Sealed", "id": "Sealed###DATA###", "description": "Internal air supply and recycling systems provide the wearer immunity to poison.", "hidden": false},
+                  {
+                    "name": "Flame Resistant",
+                    "id": "Flame Resistant###DATA###",
+                    "description": "Cooling systems and alien alloy construction confer immunity to environmental fire damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Skeleton Suit",
+                "id": "00031c73-06db-2e61-4401-fa4416ec0bf0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Grapple",
+                    "id": "aa36-a7ac-dee0-01d7",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Carapace Armor",
+                "id": "07078dfe-4a38-1f5f-6d3a-b23f9291bd5c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}]
+              },
+              {
+                "name": "Body Armor",
+                "id": "e9798ead-27cc-833e-fff9-458efe1ba5f7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "5. Item",
+            "id": "e2075625-6f72-c934-3977-abc99fd72256",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "c229e958-394c-1786-3b46-4fa511b21d9d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "0e7703e9-2abc-1a41-fc89-3e6415f943a8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "d4a4bc6d-c925-579c-1526-b1f83aed2285",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "929a3842-83eb-cb32-a578-c079dec098b9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "919f346d-3101-8726-0b48-9a4136ee20d4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "158001dc-c4af-fa05-0c3c-13637742388d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "68c02699-b661-299b-7d3e-722b45e75cd7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "45ba240b-926d-62cf-e6e6-0293fc6b1b02",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "1cd3e229-38de-de7e-a6e7-eebf35ccb6cc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          },
+          {
+            "name": "2. Primary Weapon",
+            "id": "d1aefb24-66d5-938b-175d-b65c46ee6aa0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Alloy Cannon",
+                "id": "17fc711a-b9bc-fe50-f003-1d4af715726e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 950}]
+              },
+              {
+                "name": "Plasma Rifle",
+                "id": "cad78f13-e8e0-9b66-5d75-07aad474e9ff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "Light Plasma Rifle",
+                "id": "176a1498-adb0-1b9e-8c03-a86f02e83b85",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 250}],
+                "rules": [{"name": "+10 Aim bonus", "id": "+10 Aim bonus###DATA###", "hidden": false}]
+              },
+              {
+                "name": "Scatter Laser",
+                "id": "1952d372-5d73-a2ab-1d1a-c47c7fe53602",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 250}]
+              },
+              {
+                "name": "Laser Rifle",
+                "id": "8d07c691-617d-944f-f518-7c75fdaa1e00",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "Shotgun",
+                "id": "bf0bce4d-aefc-9a30-25b4-9639ca47d4b0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Assault Rlifle",
+                "id": "5812119d-ebbc-9eb5-556c-0b5e03a69402",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "3. Secondary Weapon",
+            "id": "4b00257d-37db-3ad1-93c3-317d7779a402",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Pistol",
+                "id": "24cd4e4f-2b55-283b-d51d-9208e68c3b7f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Plasma Pistol",
+                "id": "02ef124c-d51c-252a-0b75-2a8c96e44ba3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 225}]
+              },
+              {
+                "name": "Pistol",
+                "id": "76a2efc0-0199-f756-3f52-929746413676",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Heavy)",
+        "id": "d7cb4e9f-cf67-a47a-2d6a-d6e52d955bad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 800}],
+        "selectionEntryGroups": [
+          {
+            "name": "2. Primary Weapon",
+            "id": "7f270c7f-1200-1e68-a44c-cf879b79057a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Light Machine Gun",
+                "id": "d8929afa-6c91-fd8f-7e1c-e039d14dd8f4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Heavy Laser",
+                "id": "d814c1e1-84bc-9e2e-b8d2-77b449c5193b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "Heavy Plasma",
+                "id": "dce44a46-124d-7942-4180-a8ac4540692c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              }
+            ]
+          },
+          {
+            "name": "1. Type",
+            "id": "bcae8e27-26d2-3e61-be6f-65f264a8e3a0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Machine Gunner",
+                "id": "0fc02ce0-3204-d08a-26f4-f136988c58b0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2350}],
+                "rules": [
+                  {
+                    "name": "Fire Rocket",
+                    "id": "Fire Rocket###DATA###",
+                    "description": "Fire a rocket using an equipped launcher. This ability cannot be used after moving, nor more than once per mission.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Bullet Swarm",
+                    "id": "Bullet Swarm###DATA###",
+                    "description": "Firing the primary weapon as the first action no longer ends the turn.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Suppression",
+                    "id": "3c9f-d36a-490e-fb73",
+                    "description": "Can fire a special shot that grants reaction fire at a single target. The target also suffers a -30 Aim penalty.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rapid Reaction",
+                    "id": "Rapid Reaction###DATA###",
+                    "description": "Confers a second reaction shot, if on Overwatch and the first reaction shot is a hit.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Danger Zone",
+                    "id": "Danger Zone###DATA###",
+                    "description": "Increases area of effect on Suppression and all rocket attacks by 2 tiles.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Demolitionist",
+                "id": "950fcbee-bcdd-e1c3-a8db-6881c20dba63",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 4150}],
+                "rules": [
+                  {
+                    "name": "Fire Rocket",
+                    "id": "2f3a-bcde-6714-2cee",
+                    "description": "Fire a rocket using an equipped launcher. This ability cannot be used after moving, nor more than once per mission.",
+                    "hidden": false
+                  },
+                  {"name": "Grenadier", "id": "Grenadier###DATA###", "description": "Allows 2 grenades in a single inventory slot.", "hidden": false},
+                  {"name": "Heat Ammo", "id": "Heat Ammo###DATA###", "description": "Confers +100% damage against robotic enemies.", "hidden": false},
+                  {
+                    "name": "Shredder Rocket",
+                    "id": "Shredder Rocket###DATA###",
+                    "description": "Fire a rocket that causes all enemies hit to take +33% damage from all sources for the next 4 turns. The rocket's blast is weaker than a standard rocket's.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Holo-Targeting",
+                    "id": "Holo-Targeting###DATA###",
+                    "description": "Shooting at or suppressing enemies also confers +10 Aim to any allies' attacks on those enemies.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Juggernaut",
+                "id": "94afdbc3-8bab-1d91-8c80-279a6e74d83a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 4900}],
+                "rules": [
+                  {
+                    "name": "Fire Rocket",
+                    "id": "26a4-cd15-17e5-2a18",
+                    "description": "Fire a rocket using an equipped launcher. This ability cannot be used after moving, nor more than once per mission.",
+                    "hidden": false
+                  },
+                  {"name": "Bullet Swarm", "id": "4528-0f9a-8a59-b10c", "description": "Firing the primary weapon as the first action no longer ends the turn.", "hidden": false},
+                  {
+                    "name": "Suppression",
+                    "id": "a912-edca-81a1-8572",
+                    "description": "Can fire a special shot that grants reaction fire at a single target. The target also suffers a -30 Aim penalty.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rapid Reaction",
+                    "id": "0af1-9a7b-dbd5-f2d8",
+                    "description": "Confers a second reaction shot, if on Overwatch and the first reaction shot is a hit.",
+                    "hidden": false
+                  },
+                  {"name": "Grenadier", "id": "6ab8-e852-71e3-88c8", "description": "Allows 2 grenades in a single inventory slot.", "hidden": false},
+                  {
+                    "name": "Will to Survive",
+                    "id": "Will to Survive###DATA###",
+                    "description": "Reduces all normal damage taken by 2 if in cover and not flanked.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Mayhem",
+                    "id": "Mayhem###DATA###",
+                    "description": "Confers additional damage based on weapon tech level to Suppression and all area-effect abilities.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Rocketman",
+                "id": "08e363d6-286e-be33-6426-528741178e8e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1800}],
+                "rules": [
+                  {
+                    "name": "Fire Rocket",
+                    "id": "af71-3fe9-dbab-998a",
+                    "description": "Fire a rocket using an equipped launcher. This ability cannot be used after moving, nor more than once per mission.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5. Item",
+            "id": "6d3eada9-0087-af42-4ff5-608a80de31c2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "ee985f60-b978-6129-00b9-d215e2c95edd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "746dce24-291b-1d2f-9786-32b0017e2e16",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "756745bf-d4bc-7c20-ac94-15556572f4cb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "95ecb602-59c0-6abb-5d06-1a753e835e2a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "2da9dc60-81ce-12ef-37ae-f2d2136781a3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "5a1f4287-b3f9-ea15-56db-d7586e0fbe69",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "1e2591fe-42ec-6427-2721-f5f70517dbe6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "0e7bbcb9-180e-cbff-5b23-5380e22eef3b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "0b4d7ab7-3bb4-c08c-8c5d-a27a057e85b4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          },
+          {
+            "name": "3. Secondary Weapon",
+            "id": "a86cb1e3-d412-cad1-0794-e68eeb407692",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Pistol",
+                "id": "9ac39099-89ac-71fa-02ab-88a3fd1df0e0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Plasma Pistol",
+                "id": "2c65bf4f-14e1-445e-2041-0acb9e2941a6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 225}]
+              },
+              {
+                "name": "Pistol",
+                "id": "83be466b-21a1-5b77-8020-c9fd40db9234",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "4. Armor",
+            "id": "9782ce17-08cf-c27b-405a-a62b42248f92",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Armor",
+                "id": "0c0a3f74-e1c6-b8ad-e4e7-d7b0e937e512",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [{"name": "Will bonus", "id": "5bff-2fca-7a87-3605", "description": "Increases wearer's Will by 30 for psi attacks and defense.", "hidden": false}]
+              },
+              {
+                "name": "Archangel",
+                "id": "69b8e6c9-7cd4-84b2-3849-65c3704267e1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2400}],
+                "rules": [
+                  {
+                    "name": "Flight (6 Charges)",
+                    "id": "2bde-0032-55d4-efb4",
+                    "description": "This armor is fitted with a jet pack that permits the wearer to fly for a limited period of time.",
+                    "hidden": false
+                  },
+                  {"name": "Backpack limited", "id": "ec16-9ba9-6871-d852", "hidden": false}
+                ]
+              },
+              {
+                "name": "Ghost Armor",
+                "id": "2c5996b7-c6c3-58df-252d-bdea9639739f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2700}],
+                "rules": [
+                  {
+                    "name": "Ghost Mode (4 charges)",
+                    "id": "4572-21f6-1a53-56c3",
+                    "description": "A Ghost Armor wearer can activate a special mode that makes him or her invisible to enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Grapple",
+                    "id": "4f3f-1761-960c-0ebb",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Titan Armor",
+                "id": "2b894c6b-1559-c88e-0910-ec6b3992f7e7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1700}],
+                "rules": [
+                  {
+                    "name": "Sealed",
+                    "id": "923f-7e32-3846-c333",
+                    "description": "Internal air supply and recycling systems provide the wearer immunity to poison.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Flame Resistant",
+                    "id": "0e09-57a5-b57d-fa64",
+                    "description": "Cooling systems and alien alloy construction confer immunity to environmental fire damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Skeleton Suit",
+                "id": "dc11d4d0-dcd8-4e6f-ffdb-f5bd7c09b6eb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Grapple",
+                    "id": "50a8-52f8-552e-b999",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Carapace Armor",
+                "id": "ea4df2c1-4e82-63da-a88c-d0feef6134ff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}]
+              },
+              {
+                "name": "Body Armor",
+                "id": "ad8a863a-601a-a920-e2d4-835f4b29d92e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Rookie)",
+        "id": "7015dca6-eb76-624c-9070-c549e1a5830d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 800}],
+        "selectionEntryGroups": [
+          {
+            "name": "1. Primary Weapon",
+            "id": "fcc70fa5-def1-04c9-70b0-8e8a6f5bf7aa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Assault Rlifle",
+                "id": "9383c82e-2552-0cda-a849-5e45c6ca8ecc",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Laser Rifle",
+                "id": "e053d0ca-92ee-4529-7f83-57dbf86f65d5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "Light Plasma Rifle",
+                "id": "d06b6094-f4fd-763f-202b-e81d98778342",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 250}],
+                "rules": [{"name": "+10 Aim bonus", "id": "bb84-02e2-7c49-2375", "hidden": false}]
+              },
+              {
+                "name": "Plasma Rifle",
+                "id": "e0db5ce4-62c7-df5f-14d2-6b6ddb549755",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              }
+            ]
+          },
+          {
+            "name": "4. Item",
+            "id": "248774c5-0a67-87f5-90d2-345a7f7f97ba",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "3c479cba-0cbc-f753-f9f3-4ed9a79ec758",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "f09962e5-370b-a854-11ce-eb822ae5eab0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "fb4c0f8f-a20e-f300-4059-3e8f425fa631",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "23107cce-abfa-0957-921a-ebf9c465b699",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "22ff721c-8eac-328c-46e9-7c49960b996e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "1f2ad4f5-52d1-2b40-8dbd-46791984fa7d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "261d2e70-a010-2abc-ed7a-4ecb1994664e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "3f7205d4-ea33-0d29-dab4-9aa3b1f3c1a3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "8753903a-7b55-22cd-fa7e-7964b4bb05ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          },
+          {
+            "name": "2. Secondary Weapon",
+            "id": "f46d348c-bc66-9ee1-05b7-dc9c2b7abecc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Pistol",
+                "id": "aa4e118c-1cb3-7056-0f34-546a58bdb807",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Plasma Pistol",
+                "id": "d5a3c9c8-8b54-4eae-4ce2-88eb1868017b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 225}]
+              },
+              {
+                "name": "Pistol",
+                "id": "6f5acdb8-0f26-dd55-fd93-de1e06c526c0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "3. Armor",
+            "id": "933efdef-4011-2f4d-6bf8-be53f9b29800",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Armor",
+                "id": "895b584d-448b-d57f-0241-fb9d6c617087",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [{"name": "Will bonus", "id": "79c0-70e2-9f68-5d5e", "description": "Increases wearer's Will by 30 for psi attacks and defense.", "hidden": false}]
+              },
+              {
+                "name": "Archangel",
+                "id": "285d2635-b818-7e0b-d6c1-d241f41eee57",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2400}],
+                "rules": [
+                  {
+                    "name": "Flight (6 Charges)",
+                    "id": "af75-1e46-141f-f679",
+                    "description": "This armor is fitted with a jet pack that permits the wearer to fly for a limited period of time.",
+                    "hidden": false
+                  },
+                  {"name": "Backpack limited", "id": "1581-863e-a49e-d758", "hidden": false}
+                ]
+              },
+              {
+                "name": "Ghost Armor",
+                "id": "10f32bb7-facf-a49a-318c-0c2e3e0e1ab6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2700}],
+                "rules": [
+                  {
+                    "name": "Ghost Mode (4 charges)",
+                    "id": "3f7f-eede-0c40-a433",
+                    "description": "A Ghost Armor wearer can activate a special mode that makes him or her invisible to enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Grapple",
+                    "id": "d8d9-3249-04a4-c31d",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Titan Armor",
+                "id": "423257cb-69da-d3b3-8b1d-c56715f223c5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1700}],
+                "rules": [
+                  {
+                    "name": "Sealed",
+                    "id": "88be-ba03-300b-b0f4",
+                    "description": "Internal air supply and recycling systems provide the wearer immunity to poison.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Flame Resistant",
+                    "id": "6843-3d3d-8cc4-613a",
+                    "description": "Cooling systems and alien alloy construction confer immunity to environmental fire damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Skeleton Suit",
+                "id": "86f5757c-00f7-f70a-83f7-517df5e8e70e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Grapple",
+                    "id": "0ac9-3188-b96a-5d55",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Carapace Armor",
+                "id": "3c415e1f-e4fe-3ed2-5547-c1fb9f302d18",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}]
+              },
+              {
+                "name": "Body Armor",
+                "id": "f0a62c81-575d-1412-3a85-8dda3be915f7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Sniper)",
+        "id": "f259c9e5-7763-b819-acd2-33ba1a56e478",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 800}],
+        "selectionEntryGroups": [
+          {
+            "name": "2. Primary Weapon",
+            "id": "7abafb73-025e-f8fc-762f-1f02289ea7bc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Sniper Rifle",
+                "id": "b4da3b02-41bf-1736-2b6c-bffe5ecf5599",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 250}]
+              },
+              {
+                "name": "Plasma Sniper Rifle",
+                "id": "d65b26b5-3977-aefb-47c1-da11b706e010",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1000}]
+              },
+              {
+                "name": "Sniper Rifle",
+                "id": "49de6a06-073b-95e2-4d00-8d8b8a58d5f5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "1. Type",
+            "id": "421b6b1d-d30a-57ac-9c76-b20572e734e9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Assassin",
+                "id": "b2a249f5-92fa-facc-945c-dca621dc2546",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3750}],
+                "rules": [
+                  {
+                    "name": "Mindfray",
+                    "id": "7dbc-8668-3753-7481",
+                    "description": "Use psi abilities in combat to unlock further psi training. Causes the target to lose grip on reality, inflicting penalties to Aim, Will and mobility, and doing 5 base damage. Robotic units are immune. Lasts 2 turns. 1 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Mind Control",
+                    "id": "5cfd-7894-a803-bbb4",
+                    "description": "Very difficult psi technique that, if successful, grants control of the target for 3 turns. Does not work on robotic enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Psi Panic",
+                    "id": "7ae3-d548-d66d-a2db",
+                    "description": "Cause target to panic on its following turn, if the target's Will is overcome. Robotic enemies are immune. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {"name": "Low Profile", "id": "Low Profile###DATA###", "description": "Makes partial cover count as full.", "hidden": false},
+                  {"name": "Executioner", "id": "Executioner###DATA###", "description": "Confers +10 Aim against targets with less than 50% health.", "hidden": false},
+                  {
+                    "name": "Battle Scanner",
+                    "id": "Battle Scanner###DATA###",
+                    "description": "Scanning device that, when thrown, creates a new source of vision for 2 turns. Can only be used 2 times per battle.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Damn Good Ground",
+                    "id": "Damn Good Ground###DATA###",
+                    "description": "Confers +10 Aim and +10 Defense against enemies at lower elevation, in addition to the usual elevation bonuses.",
+                    "hidden": false
+                  },
+                  {"name": "Squadsight", "id": "Squadsight###DATA###", "description": "Allows firing at targets in any ally's sight radius.", "hidden": false},
+                  {
+                    "name": "Headshot",
+                    "id": "Headshot###DATA###",
+                    "description": "Fire a shot with +30% critical hits, based on the tech level of the sniper rifle. 2 turn cooldown.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Agent",
+                "id": "fb1ab6c8-82a0-2104-718d-902c32b07b00",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2000}],
+                "rules": [
+                  {
+                    "name": "Headshot",
+                    "id": "6b57-2c16-d985-c735",
+                    "description": "Fire a shot with +30% critical hits, based on the tech level of the sniper rifle. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Damn Good Ground",
+                    "id": "4d99-f0e0-84ee-e53c",
+                    "description": "Confers +10 Aim and +10 Defense against enemies at lower elevation, in addition to the usual elevation bonuses.",
+                    "hidden": false
+                  },
+                  {"name": "Gunslinger", "id": "Gunslinger###DATA###", "description": "Confers 2 bonus damage with pistols.", "hidden": false},
+                  {"name": "Executioner", "id": "14ad-f6b8-9a7f-f5d6", "description": "Confers +10 Aim against targets with less than 50% health.", "hidden": false},
+                  {
+                    "name": "Disabling Shot",
+                    "id": "Disabling Shot###DATA###",
+                    "description": "Allows the sniper to fire a shot that causes the target's main weapon to malfunction. The target may use Reload to fix the weapon. The shot cannot inflict a critical hit. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {"name": "Low Profile", "id": "359a-4f4a-4cda-231b", "description": "Makes partial cover count as full.", "hidden": false},
+                  {
+                    "name": "Double Tap",
+                    "id": "Double Tap###DATA###",
+                    "description": "Allows both actions to be used for Standard Shot, Headshot, or Disabling Shot, provided no more moves were made. 1 turn cooldown.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Marksman",
+                "id": "f1bd0d1e-c2ce-977a-817f-317d2610beae",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 150}],
+                "rules": [
+                  {
+                    "name": "Headshot",
+                    "id": "bd22-a282-a259-6f47",
+                    "description": "Fire a shot with +30% critical hits, based on the tech level of the sniper rifle. 2 turn cooldown.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Hunter",
+                "id": "43f742e2-32c5-1728-a407-809966f1ea5d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1000}],
+                "rules": [
+                  {
+                    "name": "Headshot",
+                    "id": "33b2-282b-24b6-6d0f",
+                    "description": "Fire a shot with +30% critical hits, based on the tech level of the sniper rifle. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {"name": "Gunslinger", "id": "fd59-911f-f6c8-f8a6", "description": "Confers 2 bonus damage with pistols.", "hidden": false},
+                  {"name": "Executioner", "id": "d1fc-67c8-5efe-da1d", "description": "Confers +10 Aim against targets with less than 50% health.", "hidden": false},
+                  {
+                    "name": "Battle Scanner",
+                    "id": "3a0d-f136-1d78-8945",
+                    "description": "Scanning device that, when thrown, creates a new source of vision for 2 turns. Can only be used 2 times per battle.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Snap Shot",
+                    "id": "Snap Shot###DATA###",
+                    "description": "Removes the sniper rifle's restriction on firing and Overwatch after moving. Any shots taken suffer a -20 Aim penalty.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Dead Eye",
+                "id": "e20bb520-ac7e-e339-c249-8296061eb927",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1000}],
+                "rules": [
+                  {
+                    "name": "Headshot",
+                    "id": "522d-793d-a21d-e715",
+                    "description": "Fire a shot with +30% critical hits, based on the tech level of the sniper rifle. 2 turn cooldown.",
+                    "hidden": false
+                  },
+                  {"name": "Squadsight", "id": "b316-897d-5747-7e30", "description": "Allows firing at targets in any ally's sight radius.", "hidden": false},
+                  {
+                    "name": "Damn Good Ground",
+                    "id": "b6f9-595d-a36d-cf1d",
+                    "description": "Confers +10 Aim and +10 Defense against enemies at lower elevation, in addition to the usual elevation bonuses.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Battle Scanner",
+                    "id": "b405-059c-7a66-b872",
+                    "description": "Scanning device that, when thrown, creates a new source of vision for 2 turns. Can only be used 2 times per battle.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Opportunist",
+                    "id": "Opportunist###DATA###",
+                    "description": "Eliminates the Aim penalty on reaction shots, and allows reaction shots to cause critical hits.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5. Item",
+            "id": "93b04ab3-d525-8d1a-d4d8-85abebdfa280",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "3ba84fe6-cd26-e65e-bcfb-9111fe277c0a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "a9592a1d-61ec-6d6a-d323-a97519300dc8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "752f9bc8-50bd-7973-f9b6-70b7e540e8b4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "1a31d19b-1595-23a1-8c5b-67ec1023a510",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "19865a2a-7d4d-de45-aac6-80343a9866e1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "ab05f280-94c8-3117-b083-2095e2b62767",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "7ab9a7b9-7518-1a6e-59c2-20d8cb5a4396",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "f371cd9e-6cad-957a-151a-395f6090cf94",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "96444a3e-057f-c57e-025a-67ff98fd2f32",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          },
+          {
+            "name": "3. Secondary Weapon",
+            "id": "5ca1f11c-92a2-9df4-5415-d9f589d836e3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Pistol",
+                "id": "33fe6746-0ff3-5819-82ee-e2788e28e8c4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Plasma Pistol",
+                "id": "503a2b66-b59a-39e7-bd36-0555522a47c6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 225}]
+              },
+              {
+                "name": "Pistol",
+                "id": "b3e6f226-6e80-eee3-5be8-edb1291c63ed",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "4. Armor",
+            "id": "e70840a1-aab1-9ff8-e174-605cfee522a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Armor",
+                "id": "2c7b259a-48e0-cdd5-b962-293f2fda5155",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [{"name": "Will bonus", "id": "2b1b-e3cc-d4b7-354c", "description": "Increases wearer's Will by 30 for psi attacks and defense.", "hidden": false}]
+              },
+              {
+                "name": "Archangel",
+                "id": "105773ab-68e6-bc34-70f2-a9d1698268ef",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2400}],
+                "rules": [
+                  {
+                    "name": "Flight (6 Charges)",
+                    "id": "8445-462b-1f36-0629",
+                    "description": "This armor is fitted with a jet pack that permits the wearer to fly for a limited period of time.",
+                    "hidden": false
+                  },
+                  {"name": "Backpack limited", "id": "4942-72ee-d075-9592", "hidden": false}
+                ]
+              },
+              {
+                "name": "Ghost Armor",
+                "id": "cf4cfc77-a748-ee35-e8c3-888514558285",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2700}],
+                "rules": [
+                  {
+                    "name": "Ghost Mode (4 charges)",
+                    "id": "067e-8f9d-49e5-c154",
+                    "description": "A Ghost Armor wearer can activate a special mode that makes him or her invisible to enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Grapple",
+                    "id": "e50a-974a-0a5f-28d2",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Titan Armor",
+                "id": "17074cde-41b2-33a9-ff70-013fc67dfcd9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1700}],
+                "rules": [
+                  {
+                    "name": "Sealed",
+                    "id": "5c19-797f-88de-35ad",
+                    "description": "Internal air supply and recycling systems provide the wearer immunity to poison.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Flame Resistant",
+                    "id": "170c-2aa5-6a48-92d6",
+                    "description": "Cooling systems and alien alloy construction confer immunity to environmental fire damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Skeleton Suit",
+                "id": "9f986a2e-a480-c769-3531-56c73f9d52f0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Grapple",
+                    "id": "7507-6c20-fdda-6c31",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Carapace Armor",
+                "id": "1dcb1052-e13f-fea5-c885-e5366d8ea3a3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}]
+              },
+              {
+                "name": "Body Armor",
+                "id": "0e92f10b-8e2b-0937-cbc9-556efa236a31",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Support)",
+        "id": "dc7289e5-4784-3f33-219b-ebb8a1883526",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 800}],
+        "selectionEntryGroups": [
+          {
+            "name": "1. Type",
+            "id": "87bfd9ba-2df5-9c60-029c-f09702bccbce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Guardian",
+                "id": "cf35ae53-790d-336a-4006-da5974752de4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 2500}],
+                "rules": [
+                  {
+                    "name": "Smoke Grenade",
+                    "id": "Smoke Grenade###DATA###",
+                    "description": "Deploy a smoke grenade once per mission. The smoke confers +20 defense to all units, not just allies, and lasts through the enemy turn.",
+                    "hidden": false
+                  },
+                  {"name": "Sprinter", "id": "Sprinter###DATA###", "description": "Allows the Support to move 3 additional tiles.", "hidden": false},
+                  {"name": "Field Medic", "id": "Field Medic###DATA###", "hidden": false},
+                  {
+                    "name": "Revive",
+                    "id": "Revive###DATA###",
+                    "description": "Allows Medikits to revive critically wounded soldiers at 33% of maximum health, instead of just stabilizing them.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Dense Smoke",
+                    "id": "Dense Smoke###DATA###",
+                    "description": "Smoke Grenades have increased area of effect and further increase units' Defense by 20.",
+                    "hidden": false
+                  },
+                  {"name": "Deep Pockets", "id": "Deep Pockets###DATA###", "description": "Confers an additional item slot in inventory.", "hidden": false},
+                  {
+                    "name": "Mindfray",
+                    "id": "9743-b16e-e3ce-b1d9",
+                    "description": "Use psi abilities in combat to unlock further psi training. Causes the target to lose grip on reality, inflicting penalties to Aim, Will and mobility, and doing 5 base damage. Robotic units are immune. Lasts 2 turns. 1 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Psi Inspiration",
+                    "id": "Psi Inspiration###DATA###",
+                    "description": "Removes Mindfray and panic from all allies within 3 tiles, and strengthen their Will by +30 for 2 turns. 4 turn cooldown.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Telekinetic field",
+                    "id": "Telekinetic field###DATA###",
+                    "description": "Create an immobile telekinetic field that lasts through the enemy turn. The field distorts and deflects incoming attacks, granting +40 Defense to both allies and enemies within the field. 4 turn cooldown.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Imperator",
+                "id": "2654cfe8-6689-f364-511d-8a5f78d6383d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 2000}],
+                "rules": [
+                  {
+                    "name": "Smoke Grenade",
+                    "id": "55fa-c8a0-9312-956f",
+                    "description": "Deploy a smoke grenade once per mission. The smoke confers +20 defense to all units, not just allies, and lasts through the enemy turn.",
+                    "hidden": false
+                  },
+                  {"name": "Sprinter", "id": "992c-16ae-52a4-74f4", "description": "Allows the Support to move 3 additional tiles.", "hidden": false},
+                  {"name": "Smoke and Mirrors", "id": "Smoke and Mirrors###DATA###", "description": "Allows 1 additional use of Smoke Grenade each mission.", "hidden": false},
+                  {
+                    "name": "Rifle Suppression",
+                    "id": "Rifle Suppression###DATA###",
+                    "description": "Fire a barrage that pins down a target, granting reaction fire against it and imposing a 30 penalty to Aim.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Combat Drugs",
+                    "id": "Combat Drugs###DATA###",
+                    "description": "Smoke Grenades now contain powerful stimulants that grant +20 Will and +10% critical chance for all units in the cloud.",
+                    "hidden": false
+                  },
+                  {"name": "Deep Pockets", "id": "21a7-f56a-abf4-9ce4", "description": "Confers an additional item slot in inventory.", "hidden": false},
+                  {"name": "Sentinel", "id": "Sentinel###DATA###", "description": "Allows two reaction shots during Overwatch, instead of only one.", "hidden": false}
+                ]
+              },
+              {
+                "name": "Smokejumper",
+                "id": "0da1fa02-95c0-4c28-a3d2-336372d1a015",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}],
+                "rules": [
+                  {
+                    "name": "Smoke Grenade",
+                    "id": "133e-81c5-c1dc-6ad1",
+                    "description": "Deploy a smoke grenade once per mission. The smoke confers +20 defense to all units, not just allies, and lasts through the enemy turn.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Medic",
+                "id": "6bb97a37-dd60-9ef7-55a4-705346edd8f8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 750}],
+                "rules": [
+                  {
+                    "name": "Smoke Grenade",
+                    "id": "a433-9d55-df9c-4db0",
+                    "description": "Deploy a smoke grenade once per mission. The smoke confers +20 defense to all units, not just allies, and lasts through the enemy turn.",
+                    "hidden": false
+                  },
+                  {"name": "Field Medic", "id": "b1d9-9f1e-f22c-36b0", "hidden": false},
+                  {"name": "Sprinter", "id": "0bc5-499c-2ee1-9856", "description": "Allows the Support to move 3 additional tiles.", "hidden": false},
+                  {
+                    "name": "Revive",
+                    "id": "5e29-2e14-edce-ceb7",
+                    "description": "Allows Medikits to revive critically wounded soldiers at 33% of maximum health, instead of just stabilizing them.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Dense Smoke",
+                    "id": "ff65-60d9-59b7-e741",
+                    "description": "Smoke Grenades have increased area of effect and further increase units' Defense by 20.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Tac Officer",
+                "id": "c7ed14a5-a71d-6844-1364-39059a7acf6b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 1000}],
+                "rules": [
+                  {
+                    "name": "Smoke Grenade",
+                    "id": "dc6f-b086-f1f9-d9b2",
+                    "description": "Deploy a smoke grenade once per mission. The smoke confers +20 defense to all units, not just allies, and lasts through the enemy turn.",
+                    "hidden": false
+                  },
+                  {"name": "Smoke and Mirrors", "id": "5cb2-b9eb-db84-de11", "description": "Allows 1 additional use of Smoke Grenade each mission.", "hidden": false},
+                  {
+                    "name": "Covering Fire",
+                    "id": "Covering Fire###DATA###",
+                    "description": "Allows reaction shots to trigger on enemy attacks, not just movement.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Rifle Suppression",
+                    "id": "0f00-b537-8aeb-c78b",
+                    "description": "Fire a barrage that pins down a target, granting reaction fire against it and imposing a 30 penalty to Aim.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Combat Drugs",
+                    "id": "5393-79f1-096a-5200",
+                    "description": "Smoke Grenades now contain powerful stimulants that grant +20 Will and +10% critical chance for all units in the cloud.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5. Item 1",
+            "id": "71cc847c-6e6a-121a-1b68-ac2e50bb3d68",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "0813c88f-8a8b-7fd6-4a0d-8f020b094973",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "b6964429-47ce-929e-4556-5d39b95321ed",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "546d1b8a-9edc-d5b9-0bb9-efc32c181614",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "e4245772-c1ae-f85d-1d4a-047feb7ba1e8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "5547aabd-2bba-12e8-2489-5d1462ab60a6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "d2eb0cf9-0f17-1118-cc29-52cb084dc446",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "1f36aa02-9eaa-c148-41d7-5f6b03e711ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "7beea69d-b553-08a7-e60d-1b10d04c2373",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "9ffd3a11-5a13-bc73-a8d3-2f085b006dcd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          },
+          {
+            "name": "3. Secondary Weapon",
+            "id": "db65741b-8eb3-42f5-b3e4-7188e1ebe7d3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Laser Pistol",
+                "id": "d7a07879-44fd-9605-dfe2-1a4793f3be4b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "maxSelections",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Plasma Pistol",
+                "id": "96ec9687-ac66-6e2a-999a-dd8d1a893b78",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 225}]
+              },
+              {
+                "name": "Pistol",
+                "id": "1c99633d-dd04-bd1a-0f4f-adc6ccfbd5e8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "4. Armor",
+            "id": "64083463-7828-8fd0-c64f-3a610a5b5a6a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Psi Armor",
+                "id": "c207e5ba-7de1-b4dd-069b-693e7d434a9d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 3000}],
+                "rules": [{"name": "Will bonus", "id": "1249-04c0-b5b8-0507", "description": "Increases wearer's Will by 30 for psi attacks and defense.", "hidden": false}]
+              },
+              {
+                "name": "Archangel",
+                "id": "9f351f36-0b7f-f3b8-bf84-71236892ec87",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2400}],
+                "rules": [
+                  {
+                    "name": "Flight (6 Charges)",
+                    "id": "a483-0286-3bab-95cf",
+                    "description": "This armor is fitted with a jet pack that permits the wearer to fly for a limited period of time.",
+                    "hidden": false
+                  },
+                  {"name": "Backpack limited", "id": "26b0-0e92-9db0-5e56", "hidden": false}
+                ]
+              },
+              {
+                "name": "Ghost Armor",
+                "id": "0b659c2c-8310-5514-654f-152b7d348b23",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 2700}],
+                "rules": [
+                  {
+                    "name": "Ghost Mode (4 charges)",
+                    "id": "ed15-e4b4-d0b3-88d1",
+                    "description": "A Ghost Armor wearer can activate a special mode that makes him or her invisible to enemies.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Grapple",
+                    "id": "8a91-0f1d-3e76-ea8c",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Titan Armor",
+                "id": "a9fff385-9be7-fc30-47d5-813ab8de67f7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1700}],
+                "rules": [
+                  {
+                    "name": "Sealed",
+                    "id": "d538-61a8-c972-3762",
+                    "description": "Internal air supply and recycling systems provide the wearer immunity to poison.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Flame Resistant",
+                    "id": "51fe-021c-78ce-7a4c",
+                    "description": "Cooling systems and alien alloy construction confer immunity to environmental fire damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Skeleton Suit",
+                "id": "776260ef-dc1e-1128-e229-476ccdd5dda1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}],
+                "rules": [
+                  {
+                    "name": "Grapple",
+                    "id": "00f0-29ad-b3aa-0653",
+                    "description": "This armor mounts a grappling hook and cable on the left arm, permitting rapid elevation change and access to tactically advantageous positions.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Carapace Armor",
+                "id": "e7450f10-fb13-3c48-a337-fe8c93ad336b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 600}]
+              },
+              {
+                "name": "Body Armor",
+                "id": "dc1d62b9-acf1-3260-af67-0182010ba1e1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              }
+            ]
+          },
+          {
+            "name": "2. Primary Weapon",
+            "id": "9a93adf7-781e-6ecd-f960-f7526856d071",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Assault Rlifle",
+                "id": "b6209a5a-54bd-9047-3f05-6411a6106b4e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Laser Rifle",
+                "id": "9119b2ed-aa8e-d9b3-84d3-e57bb6cb344a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "Light Plasma Rifle",
+                "id": "7f913f41-c39e-6fb9-5922-bc73b3743193",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 250}],
+                "rules": [{"name": "+10 Aim bonus", "id": "79fb-9399-985a-2bff", "hidden": false}]
+              },
+              {
+                "name": "Plasma Rifle",
+                "id": "1cbe7ee8-1f8b-88ba-3eec-50911f8f908a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              }
+            ]
+          },
+          {
+            "name": "6. Item 2",
+            "id": "1ae82efe-ef46-c88d-dd1b-c0910046e09c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "minSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "maxSelections",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": false,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "maxInRoster",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "max",
+                "value": 0
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "maxInRoster",
+                "type": "set",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "cf35ae53-790d-336a-4006-da5974752de4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "dc7289e5-4784-3f33-219b-ebb8a1883526",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "maxInRoster",
+                "type": "set",
+                "value": 1,
+                "repeats": [
+                  {
+                    "childId": "2654cfe8-6689-f364-511d-8a5f78d6383d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "repeats": 1,
+                    "roundUp": false,
+                    "scope": "dc7289e5-4784-3f33-219b-ebb8a1883526",
+                    "shared": true,
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Mind Shield",
+                "id": "8829617b-aea9-da15-cf33-5e0dbf287886",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Chitin Plating",
+                "id": "3503125d-9fb8-1ef7-397f-4e608724a815",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 300}]
+              },
+              {
+                "name": "Nano-fiber Vest",
+                "id": "1d7a00f3-8aee-69cc-87e8-2351e15343d8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 200}]
+              },
+              {
+                "name": "S.C.O.P.E.",
+                "id": "3d9dece8-3cc6-97f7-f41c-efd6bd6bcf25",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              },
+              {
+                "name": "Alien Grenade",
+                "id": "5240e682-5813-5c8e-e385-97a27558fa4a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 1500}]
+              },
+              {
+                "name": "Frag Grenade",
+                "id": "7eba8bf7-5d58-c846-ca44-abada5d67db6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 900}]
+              },
+              {
+                "name": "None",
+                "id": "579bb3ac-6724-0e5b-132b-53bc5c0bd222",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 0}]
+              },
+              {
+                "name": "Combat Stims",
+                "id": "d2670387-1b6b-067a-8cb5-c4ef182145b9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 400}]
+              },
+              {
+                "name": "Medkit",
+                "id": "9a51f538-51e3-ebad-db05-c54724e1ee48",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "points", "value": 100}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thin Man",
+        "id": "3320e805-99aa-4a21-af7d-754d8df6b8ef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "points", "value": 1400}],
+        "rules": [
+          {
+            "name": "Poison Spit",
+            "id": "Poison Spit###DATA###",
+            "description": "Spit poison at long range, causing a noxious cloud to remain briefly on the battlefield.",
+            "hidden": false
+          },
+          {"name": "Leap", "id": "5964-1ec5-a122-ff32", "description": "Allows vertical leaps onto elevated surfaces during movement.", "hidden": false}
+        ]
+      }
+    ]
+  }
+}
